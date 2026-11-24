@@ -118,12 +118,8 @@ header {
   font-size: 16px;
   max-width: 650px;
   line-height: 1.9;
-  margin: 0 auto 35px;
+  margin: auto;
   color: #eeeeee;
-}
-
-.main-btn:hover {
-  background: white;
 }
 
 /**/
@@ -217,10 +213,6 @@ header {
   transition: 0.3s;
 }
 
-.destination-card:hover {
-  transform: translateY(-8px);
-}
-
 .destination-card img {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -251,17 +243,6 @@ header {
   line-height: 1.8;
 }
 
-.destination-note {
-  max-width: 1100px;
-  margin: 40px auto 0;
-  padding: 18px;
-  background: #dfe8d7;
-  border-left: 4px solid var(--forest);
-  color: #435747;
-  font-size: 13px;
-  line-height: 1.8;
-}
-
 /**/
 
 .food-section {
@@ -276,10 +257,6 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-}
-
-.food-box:hover {
-  transform: translateY(-6px);
 }
 
 .food-box h3 {
@@ -300,46 +277,17 @@ footer {
   background: var(--dark-green);
   color: white;
   text-align: center;
-  padding: 55px 20px 25px;
+  padding: 55px;
 }
 
 footer h2 {
   font-size: 28px;
   letter-spacing: 4px;
-  margin-bottom: 12px;
-}
-
-footer > p {
-  color: #c7d3c8;
-  font-size: 13px;
   margin-bottom: 20px;
 }
 
-.footer-links {
-  margin: 25px 0;
-}
-
-.footer-links a {
+footer > p {
   color: white;
-  text-decoration: none;
   font-size: 13px;
-  margin: 0 12px;
-}
-
-.footer-links a:hover {
-  color: var(--light-green);
-}
-
-footer .copyright {
-  border-top: 1px solid #42614d;
-  padding-top: 22px;
-  margin-top: 30px;
-}
-
-footer .sources {
-  font-size: 11px;
-}
-
-footer .sources a {
-  color: var(--light-green);
+  margin-bottom: 20px;
 }
