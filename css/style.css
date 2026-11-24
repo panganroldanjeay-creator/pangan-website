@@ -33,21 +33,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 5%;
+  padding-right: 100px;
   background-color: #123b25;
-  max-width: 1500px;
-  min-height: 40px;
 }
 
 .logo img {
-  width: 95px;
-  height: 80px;
-  object-fit: contain;
+  width: 120px;
+  height: 100px;
 }
 
 .nav-links {
   display: flex;
-  list-style: none;
   gap: 30px;
 }
 
@@ -56,23 +52,14 @@ header {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  transition: 0.3s;
 }
-
 .nav-links a:hover {
   color: #f4c542;
 }
 
-.logo {
+.navbar span {
   color: white;
-  font-size: 23px;
-  font-weight: bold;
-  text-decoration: none;
-  letter-spacing: 2px;
-}
-
-.logo span {
-  color: var(--light-green);
+  padding-right: 560px;
 }
 
 /**/
