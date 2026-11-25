@@ -25,6 +25,8 @@ body {
 header {
   width: 100%;
   background: var(--dark-green);
+  position: sticky;
+  top: 0;
 }
 
 .navbar {
