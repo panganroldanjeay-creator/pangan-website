@@ -183,7 +183,7 @@ header {
 }
 
 .destination-grid {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -200,7 +200,7 @@ header {
 
 .destination-card img {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   object-fit: cover;
   transition: 0.4s;
 }
