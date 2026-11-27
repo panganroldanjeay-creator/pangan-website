@@ -65,6 +65,30 @@ header {
 
 /**/
 
+.view-more {
+  padding-top: 100px;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  background-color: var(--forest);
+}
+
+.view-more a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.view {
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+/**/
+
 .hero {
   min-height: 650px;
   height: 90vh;
